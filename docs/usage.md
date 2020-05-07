@@ -83,4 +83,6 @@ life.set('during', [
 
 
 let human = { age: 0, name: 'zak', birthed: 'April 22 1997' };
+
 moments.forEach(moment => life.eventful(human, moment))
+```

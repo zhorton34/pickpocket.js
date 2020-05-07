@@ -1,8 +1,9 @@
 # Pickpocket.js
 > `Simplification at its finest` 
-- Zero NonDev Dependencies
+- Zero Non Dev Dependencies
 - Syntactically Pleasing
 - Extremely Lightweight
 - Simply Enjoyable
 - Minimalistic 
-- Simplified!
+- Simplified
+- Tested

@@ -24,9 +24,11 @@ const pocket = pickpocket({
 });
 
 
-pocket.any(); // true
+pocket.any();
 ```
-
+```
+true
+```
 
 ### All
 > `Retrieve all data within pocket`
@@ -66,6 +68,7 @@ const pocket = pickpocket({
 
 pocket.list();
 ```
+```
 [
 	'name is a required', 
 	'name must be a string', 
@@ -73,7 +76,7 @@ pocket.list();
 	'email is a required field', 	
 ]
 ```
-```
+
 
 
 ### Set
@@ -139,9 +142,11 @@ const pocket = pickpocket({
 	email: ['email is a required', 'email must be an email'],
 });
 pocket.list('email');
-// ['email is a required', 'email must be an email']
+```
+```
+['email is a required', 'email must be an email']
+```
 
-````
 
 ### Add
 > `Add item to specific field`
@@ -172,10 +177,11 @@ const pocket = pickpocket({
 
 pocket.set('email', ['set', 'email', 'items', 'list']);
 
-pocket.list('email'); // ['set', 'email', 'items', 'list']
+pocket.list('email');
 ```
-
-
+```
+['set', 'email', 'items', 'list']
+```
 
 
 ### Forget Field
@@ -189,5 +195,9 @@ const pocket = pickpocket({
 
 pocket.forget('email');
 
-pocket.list('email'); // []
+pocket.list('email');
 ```
+```
+[]
+```
+
