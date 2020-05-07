@@ -104,6 +104,6 @@ const pickpocket = function (data = {}) {
 }
 
 module.exports = pickpocket;
-module.exports.default = ppickpocket;
+module.exports.default = pickpocket;
 module.exports.pickpocket = pickpocket;
 module.exports.PickPocket = PickPocket;
